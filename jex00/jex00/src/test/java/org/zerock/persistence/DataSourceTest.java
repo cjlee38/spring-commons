@@ -1,6 +1,8 @@
 package org.zerock.persistence;
 
 import lombok.extern.log4j.Log4j;
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +20,10 @@ import static org.junit.Assert.fail;
 @Log4j
 public class DataSourceTest {
 
-    @Autowired private DataSource dataSource;
+    @Autowired
+    private DataSource dataSource;
+    @Autowired
+    private SqlSessionFactory sqlSessionFactory;
 
     @Test
     public void testConnection() {
@@ -27,7 +32,20 @@ public class DataSourceTest {
         } catch (Exception e) {
             fail(e.getMessage());
         }
-
     }
+
+    @Test
+    public void testMybatis() {
+
+        try (SqlSession session = sqlSessionFactory.openSession();
+             Connection con = session.getConnection();
+        ) {
+            log.info(session);
+            log.info(con);
+        } catch (Exception e) {
+            fail(e.getMessage());
+        }
+    }
+
 
 }
