@@ -19,8 +19,10 @@ public class RootConfig {
     @Bean
     public DataSource dataSource() {
         HikariConfig hikariConfig = new HikariConfig();
-        hikariConfig.setDriverClassName("oracle.jdbc.driver.OracleDriver");
-        hikariConfig.setJdbcUrl("jdbc:oracle:thin:@localhost:1521:XE");
+//        hikariConfig.setDriverClassName("oracle.jdbc.driver.OracleDriver");
+//        hikariConfig.setJdbcUrl("jdbc:oracle:thin:@localhost:1521:XE"); // 기존 db만 그냥 연결할때
+        hikariConfig.setDriverClassName("net.sf.log4jdbc.sql.jdbcapi.DriverSpy");
+        hikariConfig.setJdbcUrl("jdbc:log4jdbc:oracle:thin:@localhost:1521:XE");
         hikariConfig.setUsername("book_ex");
         hikariConfig.setPassword("book_ex");
 
