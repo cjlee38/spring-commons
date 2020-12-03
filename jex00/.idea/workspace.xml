@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="unnamed" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -23,8 +28,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89decbe9-8009-448b-a9f0-f2d73ccfc3b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../newlec-spring/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../newlec-spring/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-test/.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jex02/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jex02/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jex02/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jex02/.idea/libraries/ojdbc8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jex02/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jex02/src/main/java/org/zerock/config/RootConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jex02/src/main/java/org/zerock/config/ServletConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jex02/src/main/java/org/zerock/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jex02/src/main/java/org/zerock/domain/BoardVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jex02/src/main/java/org/zerock/mapper/BoardMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jex02/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jex02/src/main/resources/log4jdbc.log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jex02/src/main/resources/org/zerock/mapper/BoardMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jex02/src/main/webapp/WEB-INF/__web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jex02/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jex02/src/test/java/org/zerock/mapper/BoardMapperTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jex02/src/test/java/org/zerock/persistence/DataSourceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jex02/src/test/java/org/zerock/persistence/JDBCTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jex02/src/test/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jex02/src/test/resources/log4jdbc.log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jex00/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jex00/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jex01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jex01/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +62,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -51,6 +87,95 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jex00/pom.xml" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.39310345" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\develop\spring\cobaeweb\jex00\jex00\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.40" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.40" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="unnamed">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_jex00_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="7203" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="unnamed" />
+        </option>
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -61,6 +186,11 @@
       <option name="presentableId" value="Default" />
       <updated>1606460242902</updated>
       <workItem from="1606460244088" duration="240000" />
+      <workItem from="1606957808600" duration="581000" />
+      <workItem from="1606959563041" duration="2355000" />
+      <workItem from="1606986110609" duration="606000" />
+      <workItem from="1606988327591" duration="30000" />
+      <workItem from="1606988552355" duration="612000" />
     </task>
     <servers />
   </component>
@@ -77,8 +207,73 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1180" y="355" key="#BuildArtifactsBeforeRunChooser" timestamp="1606964431553">
+      <screen x="-1920" y="11" width="1920" height="1040" />
+    </state>
+    <state x="-1180" y="355" key="#BuildArtifactsBeforeRunChooser/0.0.1920.1040/-1920.11.1920.1040@-1920.11.1920.1040" timestamp="1606964431553" />
+    <state x="-1480" y="125" key="#Project_Structure" timestamp="1606964428894">
+      <screen x="-1920" y="11" width="1920" height="1040" />
+    </state>
+    <state x="-1480" y="125" key="#Project_Structure/0.0.1920.1040/-1920.11.1920.1040@-1920.11.1920.1040" timestamp="1606964428894" />
+    <state x="-1506" y="186" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606964435631">
+      <screen x="-1920" y="11" width="1920" height="1040" />
+    </state>
+    <state x="-1506" y="186" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.11.1920.1040@-1920.11.1920.1040" timestamp="1606964435631" />
+    <state x="-1180" y="286" key="FileChooserDialogImpl" timestamp="1606964580373">
+      <screen x="-1920" y="11" width="1920" height="1040" />
+    </state>
+    <state x="-1180" y="286" key="FileChooserDialogImpl/0.0.1920.1040/-1920.11.1920.1040@-1920.11.1920.1040" timestamp="1606964580373" />
+    <state width="1293" height="276" key="GridCell.Tab.0.bottom" timestamp="1606964582739">
+      <screen x="-1920" y="11" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.11.1920.1040@-1920.11.1920.1040" timestamp="1606964582739" />
+    <state width="1293" height="276" key="GridCell.Tab.0.center" timestamp="1606964582739">
+      <screen x="-1920" y="11" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="276" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.11.1920.1040@-1920.11.1920.1040" timestamp="1606964582739" />
+    <state width="1293" height="276" key="GridCell.Tab.0.left" timestamp="1606964582739">
+      <screen x="-1920" y="11" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="276" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.11.1920.1040@-1920.11.1920.1040" timestamp="1606964582739" />
+    <state width="1293" height="276" key="GridCell.Tab.0.right" timestamp="1606964582739">
+      <screen x="-1920" y="11" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="276" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.11.1920.1040@-1920.11.1920.1040" timestamp="1606964582739" />
+    <state width="1293" height="276" key="GridCell.Tab.1.bottom" timestamp="1606964582740">
+      <screen x="-1920" y="11" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="276" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.11.1920.1040@-1920.11.1920.1040" timestamp="1606964582740" />
+    <state width="1293" height="276" key="GridCell.Tab.1.center" timestamp="1606964582739">
+      <screen x="-1920" y="11" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="276" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.11.1920.1040@-1920.11.1920.1040" timestamp="1606964582739" />
+    <state width="1293" height="276" key="GridCell.Tab.1.left" timestamp="1606964582739">
+      <screen x="-1920" y="11" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="276" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.11.1920.1040@-1920.11.1920.1040" timestamp="1606964582739" />
+    <state width="1293" height="276" key="GridCell.Tab.1.right" timestamp="1606964582739">
+      <screen x="-1920" y="11" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="276" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.11.1920.1040@-1920.11.1920.1040" timestamp="1606964582739" />
+    <state width="1293" height="276" key="GridCell.Tab.2.bottom" timestamp="1606964582740">
+      <screen x="-1920" y="11" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="276" key="GridCell.Tab.2.bottom/0.0.1920.1040/-1920.11.1920.1040@-1920.11.1920.1040" timestamp="1606964582740" />
+    <state width="1293" height="276" key="GridCell.Tab.2.center" timestamp="1606964582740">
+      <screen x="-1920" y="11" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="276" key="GridCell.Tab.2.center/0.0.1920.1040/-1920.11.1920.1040@-1920.11.1920.1040" timestamp="1606964582740" />
+    <state width="1293" height="276" key="GridCell.Tab.2.left" timestamp="1606964582740">
+      <screen x="-1920" y="11" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="276" key="GridCell.Tab.2.left/0.0.1920.1040/-1920.11.1920.1040@-1920.11.1920.1040" timestamp="1606964582740" />
+    <state width="1293" height="276" key="GridCell.Tab.2.right" timestamp="1606964582740">
+      <screen x="-1920" y="11" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="276" key="GridCell.Tab.2.right/0.0.1920.1040/-1920.11.1920.1040@-1920.11.1920.1040" timestamp="1606964582740" />
     <state x="-1581" y="172" key="new project wizard" timestamp="1606460482783">
       <screen x="-1920" y="11" width="1920" height="1040" />
     </state>
