@@ -28,32 +28,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89decbe9-8009-448b-a9f0-f2d73ccfc3b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jex02/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jex02/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jex02/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jex02/.idea/libraries/ojdbc8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jex02/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jex02/src/main/java/org/zerock/config/RootConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jex02/src/main/java/org/zerock/config/ServletConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jex02/src/main/java/org/zerock/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jex02/src/main/java/org/zerock/domain/BoardVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jex02/src/main/java/org/zerock/mapper/BoardMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jex02/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jex02/src/main/resources/log4jdbc.log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jex02/src/main/resources/org/zerock/mapper/BoardMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jex02/src/main/webapp/WEB-INF/__web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jex02/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jex02/src/test/java/org/zerock/mapper/BoardMapperTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jex02/src/test/java/org/zerock/persistence/DataSourceTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jex02/src/test/java/org/zerock/persistence/JDBCTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jex02/src/test/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jex02/src/test/resources/log4jdbc.log4j2.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jex00/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jex00/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jex01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jex01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jex02/src/main/java/org/zerock/mapper/BoardMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jex02/src/main/java/org/zerock/mapper/BoardMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jex02/src/main/resources/org/zerock/mapper/BoardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jex02/src/main/resources/org/zerock/mapper/BoardMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jex02/src/test/java/org/zerock/mapper/BoardMapperTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jex02/src/test/java/org/zerock/mapper/BoardMapperTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
