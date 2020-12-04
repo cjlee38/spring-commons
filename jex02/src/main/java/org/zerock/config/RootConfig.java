@@ -17,6 +17,7 @@ import javax.sql.DataSource;
 
 @Configuration
 @MapperScan(basePackages = "org.zerock.mapper")
+@ComponentScan(basePackages = "org.zerock.service")
 @Log4j
 public class RootConfig {
 

@@ -1,12 +1,13 @@
 package org.zerock.mapper;
 
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
 import org.zerock.domain.BoardVO;
 
 import java.util.List;
 
-@Repository
+@Mapper
 public interface BoardMapper {
 
 //    @Select("select * from tbl_board where bno > 0") // xml로 대체
