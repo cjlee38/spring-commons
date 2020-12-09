@@ -14,7 +14,7 @@ import org.zerock.service.BoardService;
 
 @Controller
 @Log4j
-@RequestMapping("/board/*")
+@RequestMapping("/board")
 @RequiredArgsConstructor
 public class BoardController {
 
@@ -27,6 +27,13 @@ public class BoardController {
 
     }
 
+    /**
+     * 게시글 작성 폼으로 이동
+     */
+    @GetMapping("/register")
+    public void register() {
+
+    }
     /**
      * 게시글 작성
      *
