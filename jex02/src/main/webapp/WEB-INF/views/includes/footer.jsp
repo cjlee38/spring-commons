@@ -37,6 +37,32 @@
     });
 </script>
 
+<script>
+    $(document).ready(function() {
+        $('#dataTables-example').DataTable({
+            responsive: true
+        });
+        $(".sidebar-nav")
+            .attr("class","sidebar-nav navbar-collapse collapse")
+            .attr("aria-expanded",'false')
+            .attr("style","height:1px");
+    });
+</script>
+
 </body>
 
 </html>
+
+<%-- 모바일 크기에서, 새로고침 시에 메뉴가 펼쳐지는 문제를 위한 코드. 근데 그 전에도 괜찮았는데;;--%>
+<%--<script>--%>
+<%--    $(document).ready(function() {--%>
+<%--        $('#dataTables-example').DataTable({--%>
+<%--            responsive: true--%>
+<%--        });--%>
+<%--        $(".sidebar-nav")--%>
+<%--            .attr("class", "sidebar-nav navbar-collapse collapse")--%>
+<%--            .attr("aria-expanded", 'false')--%>
+<%--            .attr("style", "height:1px");--%>
+<%--    });--%>
+<%--</script>--%>
+
