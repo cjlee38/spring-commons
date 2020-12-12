@@ -50,13 +50,23 @@
                                                  readonly="readonly"/>
                 </div>
 
-                <button data-oper="modify" class="btn btn-default"
-                        onclick="location.href='/board/modify?bno=<c:out value="${board.bno}"/>'">
-                    Modify
-                </button>
-                <button data-oper="list" class="btn btn-info"
-                        onclick="location.href='/board/list'">List
-                </button>
+<%--                기존 방식--%>
+<%--                <button data-oper="modify" class="btn btn-default"--%>
+<%--                        onclick="location.href='/board/modify?bno=<c:out value="${board.bno}"/>'">--%>
+<%--                    Modify--%>
+<%--                </button>--%>
+<%--                <button data-oper="list" class="btn btn-info"--%>
+<%--                        onclick="location.href='/board/list'">List--%>
+<%--                </button>--%>
+
+                    <!-- 기존의 방식과 동일하지만, 그 과정이 다르다. 유연성을 위한거라는데, 잘 모르겠음 -->
+                    <button data-oper="modify" class="btn btn-default">Modify</button>
+                    <button data-oper="list" class="btn btn-info">List</button>
+
+                    <form id="operForm" action="/board/modify" metho="get">
+                        <input type="hidden" id="bno" name="bno" value="<c:out value="${board.bno}"/>">
+                    </form>
+
 
                 <!-- edit here -->
             </div>
@@ -67,5 +77,23 @@
     <!-- /.col-lg-12 -->
 </div>
 <!-- /.row -->
+
+<!-- 새로운 buttn & form 을 처리하기 위한 javascript code -->
+<script type="text/javascript" >
+    $(document).ready(function() {
+        var operForm = $("#operForm");
+
+        $("button[data-oper='modify']").on("click", function (e) {
+            operForm.attr("action", "/board/modify").submit();
+        });
+
+        $("button[data-oper='list']").on("click", function (e) {
+            operForm.find("#bno").remove();
+            operForm.attr("action", "/board/list")
+            operForm.submit();
+        });
+    });
+
+</script>
 
 <%@ include file="../includes/footer.jsp" %>

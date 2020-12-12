@@ -102,12 +102,15 @@
                 formObj.attr('action', "/board/remove");
             } else if (operation === "list") {
                 // move to list
-                self.location = "/board/list";
-                return;
+
+                // 이것도 기존 코드는 이렇게 썼는데, 밑에껄로 바꿈.
+                // self.location = "/board/list";
+                // return;
+
+                formObj.attr('action', "/board/list").attr("method","get");
+                formObj.empty();
             }
 
-            console.log('hello')
-            console.log(formObj);
             formObj.submit();
         });
     });
