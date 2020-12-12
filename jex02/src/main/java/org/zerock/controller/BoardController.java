@@ -4,10 +4,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import org.zerock.domain.BoardVO;
 import org.zerock.service.BoardService;
@@ -32,7 +29,7 @@ public class BoardController {
      */
     @GetMapping("/register")
     public void register() {
-
+        log.info("register button clicked!");
     }
     /**
      * 게시글 작성
@@ -52,15 +49,16 @@ public class BoardController {
         return "redirect:/board/list";
     }
 
-    @GetMapping("/get")
+    @GetMapping({"/get", "/modify"})
     public void get(Model model, @RequestParam("bno") Long bno) {
-        log.info("get = " + bno);
-
-        model.addAttribute("board", service.get(bno));
+        BoardVO board = service.get(bno);
+        log.info("get or modify in controller " + board);
+        model.addAttribute("board", board);
     }
 
     @PostMapping("/modify")
     public String modify(BoardVO board, RedirectAttributes rttr) {
+        log.info("modify-post in controller = " + board);
         if (service.modify(board)) {
             rttr.addFlashAttribute("result", "success");
         }

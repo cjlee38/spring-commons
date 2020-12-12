@@ -1,6 +1,5 @@
 package org.zerock.controller;
 
-import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j;
 import org.junit.Before;
 import org.junit.Test;
@@ -10,7 +9,6 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.MockMvcBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
@@ -61,7 +59,7 @@ public class BoardControllerTests {
     public void testGet() throws Exception {
 
         log.info(mockMvc.perform(MockMvcRequestBuilders.get("/board/get")
-                .param("bno", "1"))
+                .param("bno", "5"))
                 .andReturn()
                 .getModelAndView()
                 .getModelMap());
@@ -71,10 +69,12 @@ public class BoardControllerTests {
     public void testModify() throws Exception {
         String result = mockMvc
                 .perform(MockMvcRequestBuilders.post("/board/modify")
-                        .param("bno", "1")
+                        .param("bno", "5")
                         .param("title", "테스트에서 수정된 제목")
                         .param("content", "테스트에서 수정된 내용")
                         .param("writer", "writer in test")
+                        .param("regDate", "2020-01-01")
+                        .param("updateDate", "2020-01-01")
                 ).andReturn().getModelAndView().getViewName();
 
         log.info(result);

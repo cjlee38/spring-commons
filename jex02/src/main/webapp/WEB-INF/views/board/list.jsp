@@ -88,8 +88,10 @@
 
         checkModal(result);
 
+        history.replaceState({}, null, null); // 작성 -> 목록 -> 조회 -> 뒤로가기(목록) 시 모달창 없애기
+
         function checkModal(result) {
-            if (result === '') {
+            if (result === '' || history.state ) {
                 return;
             }
 

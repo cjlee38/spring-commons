@@ -4,8 +4,6 @@ package org.zerock.config;
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 import lombok.extern.log4j.Log4j;
-import oracle.jdbc.AdditionalDatabaseMetaData;
-import oracle.jdbc.OracleType;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.annotation.MapperScan;
