@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import org.zerock.domain.BoardVO;
 import org.zerock.domain.Criteria;
+import org.zerock.domain.PageDTO;
 import org.zerock.service.BoardService;
 
 @Controller
@@ -20,10 +21,10 @@ public class BoardController {
 
     @GetMapping("/list")
     public void list(Criteria criteria, Model model) {
-        log.info("board list ... ");
+        log.info("board list in controller, criteria = " + criteria);
 
         model.addAttribute("list", service.getList(criteria));
-
+        model.addAttribute("pageMaker", new PageDTO(123, criteria));
     }
 
     /**
