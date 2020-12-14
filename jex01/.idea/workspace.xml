@@ -28,11 +28,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29cb492c-ecd1-4d4b-ad9c-3257a0508d61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../jex02/src/main/java/org/zerock/config/RootConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jex02/src/main/java/org/zerock/config/RootConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jex02/src/main/java/org/zerock/mapper/BoardMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jex02/src/main/java/org/zerock/mapper/BoardMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jex02/src/test/java/org/zerock/controller/BoardControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jex02/src/test/java/org/zerock/controller/BoardControllerTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jex02/src/test/java/org/zerock/mapper/BoardMapperTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jex02/src/test/java/org/zerock/mapper/BoardMapperTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jex02/src/test/java/org/zerock/persistence/JDBCTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jex02/src/test/java/org/zerock/persistence/JDBCTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jex03/src/main/java/org/cjlee/mapper/TimeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jex00/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jex00/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,6 +176,7 @@
       <workItem from="1606958397709" duration="646000" />
       <workItem from="1606966709099" duration="628000" />
       <workItem from="1607600610438" duration="1215000" />
+      <workItem from="1607934541676" duration="25000" />
     </task>
     <servers />
   </component>
