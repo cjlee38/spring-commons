@@ -1,8 +1,10 @@
 package org.zerock.service;
 
 import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.zerock.domain.BoardVO;
 import org.zerock.domain.Criteria;
@@ -12,10 +14,12 @@ import java.util.List;
 
 @Log4j
 @Service
-@RequiredArgsConstructor
+//@RequiredArgsConstructor
+//@NoArgsConstructor
 public class BoardServiceImpl implements BoardService {
 
-    private final BoardMapper mapper;
+    @Autowired
+    private BoardMapper mapper;
 
     @Override
     public void register(BoardVO board) {

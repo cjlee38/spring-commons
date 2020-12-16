@@ -28,13 +28,13 @@ public class RootConfig {
 
         hikariConfig.setMinimumIdle(5);
         // test Query
-        hikariConfig.setConnectionTestQuery("SELECT sysdate FROM dual");
-        hikariConfig.setPoolName("springHikariCP");
-
-        hikariConfig.addDataSourceProperty("dataSource.cachePrepStmts", "true");
-        hikariConfig.addDataSourceProperty("dataSource.prepStmtCacheSize", "200");
-        hikariConfig.addDataSourceProperty("dataSource.prepStmtCacheSqlLimit", "2048");
-        hikariConfig.addDataSourceProperty("dataSource.useServerPrepStmts", "true");
+//        hikariConfig.setConnectionTestQuery("SELECT sysdate FROM dual");
+//        hikariConfig.setPoolName("springHikariCP");
+//
+//        hikariConfig.addDataSourceProperty("dataSource.cachePrepStmts", "true");
+//        hikariConfig.addDataSourceProperty("dataSource.prepStmtCacheSize", "200");
+//        hikariConfig.addDataSourceProperty("dataSource.prepStmtCacheSqlLimit", "2048");
+//        hikariConfig.addDataSourceProperty("dataSource.useServerPrepStmts", "true");
 
         HikariDataSource dataSource = new HikariDataSource(hikariConfig);
 
